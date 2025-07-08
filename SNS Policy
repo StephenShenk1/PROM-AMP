@@ -11,13 +11,13 @@
         "sns:Publish",
         "sns:GetTopicAttributes"
       ],
-      "Resource": "arn:aws:sns:us-east-1:299:prometheus-sns",
+      "Resource": "arn:aws:sns:eu-west-2:389214548501:PROM_SNS",
       "Condition": {
         "StringEquals": {
-          "AWS:SourceAccount": "299928847247"
+          "AWS:SourceAccount": "389214548501"
         },
         "ArnEquals": {
-          "aws:SourceArn": "arn:aws:aps:us-east-1:299:workspace/ws-116ba741-811"
+          "aws:SourceArn": "arn:aws:aps:eu-west-2:389214548501:workspace/ws-bbf0366b-7b0f-4c55-9802-a71fec7245a9"
         }
       }
     }
